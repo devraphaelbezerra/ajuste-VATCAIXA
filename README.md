@@ -41,7 +41,9 @@ Realizar verificações agendadas no banco de dados e corrigir informações inc
 ````markdown
 # 🔄 OnSync: VATCAIXA_update_onSync.js
 Este dataset foi desenvolvido com o objetivo de manter a integridade dos dados no ambiente Fluig, realizando verificações periódicas em tabelas específicas do banco de dados e corrigindo inconsistências automaticamente.
+````
 ![image](https://github.com/user-attachments/assets/7fc8f2f1-341e-495b-b00d-2893bbf9f0dc)
+````
 ---
 
 ## 🎯 Objetivo
@@ -56,7 +58,9 @@ Realizar **verificações agendadas** no banco de dados e **corrigir informaçõ
 - Realiza um **SELECT** em tabelas-chave para detectar divergências ou dados não sincronizados
 - Quando detecta inconsistências, aplica **UPDATE** nos registros necessários
 - Finaliza o processo com um **COMMIT**, garantindo a persistência das correções
+````
 ![image](https://github.com/user-attachments/assets/f2c24eae-4e2b-409a-8842-e5bb103e516a)
+````
 ---
 
 ## 📌 Casos de Uso
